@@ -1,0 +1,156 @@
+body {    
+    font-family: 'Montserrat', sans-serif
+}
+
+header {
+    background: url(/img/bg.jpg);
+}
+
+.box {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+nav {
+    position: absolute;
+    right: 0;
+    top: 130px;
+}
+
+nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav li a:hover {
+    color: rgba(122, 4, 4, 0.822);
+    transition: 0.2s;
+}
+
+main {
+    margin: 0 auto;
+    padding: 0 300px;
+    background-color: rgb(0, 0, 0);
+}
+
+.pizzas {
+    padding: 70px;
+}
+
+.pizzas h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 20px;
+    font-size: 25px;
+    color: white;
+    text-decoration: underline;
+}
+
+.desc {
+    vertical-align: top;
+    font-size: 18px;
+    color: white;
+    line-height: 1.5;
+    display: inline-block;
+    width: 70%;
+    margin: 0 10px;
+}
+
+.massas {
+    padding: 70px;
+}
+
+.img-sobre {    
+    display: inline;
+    border-radius: 10px;
+    border: solid white;
+    width: 20%;
+}
+
+.massas h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 20px;
+    font-size: 25px;
+    color: white;
+    text-decoration: underline;
+}
+
+.localizacao {
+    padding: 3em 0;
+}
+
+.mapa {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.localizacao h3 {
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    margin: 40px auto;
+    font-weight: bold;
+}
+
+footer {
+    background: url(/img/bg.jpg);
+    text-align: center;
+    padding: 40px 0;
+}
+
+.copyright {
+    color: white;
+    font-size: 13px;
+    margin: 20px 0 0;
+}
+
+@media screen and (max-width: 480px) {
+    .box, main, .mapa, img {
+        width: auto;
+    }
+
+    .box img {
+        margin: 0 0 10px 30%;
+    }
+
+    nav {
+        position: static;
+        text-align: center;
+    }
+
+    main {
+        padding: 0 20px;
+    }
+
+    .pizzas, .massas {
+        padding: 10px 0 20px 0;
+    }
+
+    .pizzas h2, .massas h2 {
+        text-align: center;
+    }
+
+    .img-sobre {
+        display: block;
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    .desc {
+        width: auto;
+        display: block;
+        text-align: center;
+        padding: 10px 0;
+    }
+}
