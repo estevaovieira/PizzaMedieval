@@ -1,0 +1,26 @@
+[
+    {
+        "titulo": "calabresa",
+        "imagem": "/img/pizzaC.png",
+        "descricao": "Uma pizza maravilhosa com a qualidade que você merece!",
+        "preco": "R$35,90" 
+    },
+    {
+        "titulo": "portuguesa",
+        "imagem": "/img/pizzaP.png",
+        "descricao": "Uma pizza maravilhosa com a qualidade que você merece!",
+        "preco": "R$31,20"
+    },
+    {
+        "titulo": "mussarela",
+        "imagem": "/img/pizzaMu.png",
+        "descricao": "Uma pizza maravilhosa com a qualidade que você merece!",
+        "preco": "R$38,50"
+    },
+    {
+        "titulo": "marguerita",
+        "imagem": "/img/pizzaMa.png",
+        "descricao": "Uma pizza maravilhosa com a qualidade que você merece!",
+        "preco": "R$33,00"
+    }
+]
