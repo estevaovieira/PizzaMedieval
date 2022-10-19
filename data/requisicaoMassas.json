@@ -1,23 +1,27 @@
 [
     {
+        "id": 1,
         "titulo": "Pão Artesanal",
         "imagem": "/img/paoArtesanal.png",
         "descricao": "Um delicioso pão com a qualidade que você merece!",
         "preco": "R$30,00" 
     },
     {
+        "id": 2,
         "titulo": "Pão Caseiro",
         "imagem": "/img/paoCaseiro.png",
         "descricao": "Um delicioso pão com a qualidade que você merece!",
         "preco": "R$20,00"
     },
     {
+        "id": 3,
         "titulo": "Pão Francês",
         "imagem": "/img/paoFrances.png",
         "descricao": "Um delicioso pão com a qualidade que você merece!",
         "preco": "R$10,00"
     },
     {
+        "id": 4,
         "titulo": "Pão Medio",
         "imagem": "/img/paoMedio.png",
         "descricao": "Um delicioso pão com a qualidade que você merece!",
