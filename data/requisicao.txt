@@ -1,1 +1,1 @@
-https://raw.githubusercontent.com/estevaovieira/PizzaMedieval/develop/data/requisicaoMassas.json
+https://raw.githubusercontent.com/estevaovieira/PizzaMedieval/develop/data/requisicaoPizza.json
